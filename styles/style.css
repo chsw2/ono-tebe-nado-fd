@@ -1,13 +1,15 @@
 /* место для вашего кода */
 .body {
-
+position: relative;
+  box-sizing: border-box;
+  min-width: 500px;
+  min-height: 100vh;
+  margin: 0;
+  padding: 55px 35px 45px 95px;
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 3fr;
-  grid-template-rows: 2ffr;
-  gap: 10px 20px;
+  
 }
 
 
@@ -23,5 +25,59 @@
 }
 
 .header {
+  padding: 78px 51px 90px; /*верх лево/право низ */
+  display: grid;
+  grid-template-columns: 1fr 140px 1fr;
+  align-items: center;
+}
 
+
+
+.logo {
+  width 124px;
+  height: 94px;
+}
+
+.header-logo {
+  align-self:center;
+  width: 138px;
+}
+
+.header-links {
+
+}
+
+.header-item {
+  list-style-type: circle;
+}
+
+.header__links-list-item_no-bullet {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.header-address {
+
+}
+
+.header-phone {
+
+}
+
+.header-email {
+
+}
+
+.header-post-address {
+
+}
+
+.cover {
+  position: relative;
+  display: flex;
+  color: #fff;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-position: center top;
+  min-height: 757px;
 }
