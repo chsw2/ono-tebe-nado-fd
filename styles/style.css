@@ -25,10 +25,10 @@ position: relative;
 }
 
 .header {
-  padding: 78px 51px 90px; /*верх лево/право низ */
   display: grid;
-  grid-template-columns: 1fr 140px 1fr;
-  align-items: center;
+  grid-template-columns: 3fr;
+  grid-template-rows: minmax();
+ 
 }
 
 
