@@ -32,6 +32,7 @@
 .header_links {
   display: flex;
   flex-direction: row;
+  grid-auto-rows: auto;
   gap: 32px;
   list-style-type: circle;
 }
