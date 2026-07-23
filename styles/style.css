@@ -1,99 +1,60 @@
 /* место для вашего кода */
-.body {
-   
-}
-
-.header content-section {
-  font-weight: 400;
-}
-
+/* хедер */
 .header {
-  margin: 1px;
-  padding: 100px 60px;
   display: grid;
-  grid-template-columns: 
-  repeat(4, 1fr) 
-  repeat(1, 2fr) 
-  repeat(4, 1fr);
-  grid-template-rows: 1 / -7;
-  font-size: 18px;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 92px 24px;
+  gap: 120px;
 }
 
-.header_menu {
-  margin 1px;
-  display: grid;
-  grid: auto-flow / 1fr 1fr 1fr;
- }
-
-.header_links {
+.header__menu {
   display: flex;
   flex-direction: row;
-  grid-auto-rows: auto;
+  align-items: flex-start;
+  }
+
+.menu__links {
+  display: flex;
   gap: 32px;
   list-style-type: circle;
+  padding-right: 6px;
 }
 
-.header_links item-no-bullet {
+.link__list {
+  display: flex;
+  gap: 32px;
+  font-size: 18px;
+  font-weight: 400;
+  text-underline-offset: 4px;
+}
+.main__link_marker {
   list-style-type: none;
 }
 
-.header_link-active {
+.link__main {
   text-decoration: none;
 }
 
-.header_logo {
-  grid-column: 5 / 6;
-  justify-self: center;
-}
 
-.header_image-logo {
-  display: block;
-  width: 150px;
-  height: 100px;
-}
 
-.header_link-item {
-  text-transform: lowercase;
-  text-decoration: underline;
-  text-underline-offset: 18%;
-}
+.address {
 
-.header_link-active {
-  text-decoration: none;
-}
-
-.header_address {
-  grid-column: 6 / -1;
-  display: flex;
-  flex-direction: column;
-  justify-content: right;
-  justify-self: end;
-  line-height: 1.4;
+  padding-left: 90px;
+  font-size: 18px;
+  font-family: Raleway;
   font-style: normal;
+  line-height: 24.3px;
+  list-style-type: none;
+  align-items: center;
+  justify-items: center;
 }
 
-.header_address-phone-l {
-  text-decoration: underline;
-  text-underline-offset: 16%;
-}
-
-.header_address-emai-l {
-  text-decoration: underline;
-  text-underline-offset: 16%;
-}
-
-.header_post-address {
-  max-width: 200px;
-}
-
-/*
-.cover {
-  position: relative;
+.header__logo-img {
+  height: 148px;
+  width: 105;
   display: flex;
-  color: #fff;
-  background-image: url(../images/cover.jpg);
-  background-size: cover;
-  background-position: center top;
-  min-height: 757px;
+  gap: 48px;
 }
-  */
+/* ковер */
+
