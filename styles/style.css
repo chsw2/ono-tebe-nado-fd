@@ -3,11 +3,14 @@
 
 .header {
   display: grid;
-  grid-template-columns: 400px min-content 400px;
+  grid-template-columns: 440px max-content 440px;
+  /*grid-template-rows: min-content;
+  grid-template-areas: inherit;*/
   padding: 92px 24px;
-  gap: 120px;
+  gap: 10px;
   text-decoration-color: #000;
   border: 1px solid red;
+  padding-left: 1px;;
 }
 
 .header__menu {
@@ -19,16 +22,15 @@
 
 .menu__links {
   display: inline-block;
-  width: fit-content;
-  list-style-type: circle;
+  list-style-type:circle;
   padding-right: 10px;
-  border: 1px solid;
+  border: 1px solid hsl(216, 73%, 37%);
 }
 
-.link__list {
+.link__list a {
   font-weight: 400;
   text-underline-offset: 4px;
-  text-decoration-color: #000;
+    border: 1px solid #6a15d2;
 }
 
 .main__link_marker {
@@ -36,22 +38,22 @@
 }
 
 .link__main {
-  text-decoration: none;
-  text-decoration-color: #000;
+ list-style-type: none;
 }
 
 .logo__img {
-  display: flex;
-  object-fit: cover;
+  object-fit: none;
   height: 148px;
 }
   address {
   font-size: 18px;
   line-height: 24.3px;
   letter-spacing: 0.18px;
+  align-items: last baseline;
   font-family: "Raleway", sans-serif;
   list-style-type: none;
   font-style: normal;
+  border: 1px solid greenyellow;
 }
 
 
