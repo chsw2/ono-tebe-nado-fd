@@ -5,9 +5,6 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr) repeat(1, 2fr) repeat(4, 1fr);
   padding: 92px 50px;
-  gap: 10px;
-  align-items: center;
-  text-decoration-color: #000;
   font-size: 18px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -15,33 +12,39 @@
   border: 1px solid red;
 }
 
-.header__menu {
-  grid-column: span 4;
-  /*display: flexbox;*/
-  align-items: center;
-  list-style-position: inside;
-  justify-items: left;
-  padding-left: 10px 30px;
-  font-size: 18px;
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  border: 1px solid greenyellow;
+.content-section {
+  font-weight: 400;
 }
 
-.menu__links {
+.header__menu {
+  grid-column-start: span 4;
+  grid-column-end: auto;
   display: flex;
-  /*flex-direction: row;
-  gap: 32px;*/
-  list-style-type:circle;
-  padding-right: 1px;
+  justify-items: flex-start;
+  align-items: center;
+  list-style-position: inside;
+  
   font-size: 18px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
-  border: 1px solid hsl(216, 73%, 37%);
+  border: 1px solid greenyellow;*/
+}
+
+.header__menu__links {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  list-style-type:circle;
+  /*padding-right: 1px;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  border: 1px solid hsl(216, 73%, 37%);*/
 }
 
 .link__list {
-  font-weight: 400;
+  /*font-weight: 400;*/
+  display: flex;
   text-underline-offset: 4px;
   font-size: 18px;
   font-family: "Raleway", sans-serif;
@@ -50,25 +53,27 @@
 }
 
 .main__link_marker {
-  list-style-type: style;;
+  list-style: none;
 }
 
 .link__main {
-  font-size: 18px;
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  list-style-type: none;
+    list-style-type: none;
 }
 
-.logo__img {
-  display: flex;
-  
+ .header__logo {
+  display: block;
+  grid-column: 5 / 6;
   justify-items: center;
-  align-items: center;
-  
-  height: 148px;
+}
+
+.header__logo__image {
+  display: flex;
+  inline-size: auto;
+  width: 148px;
+  height: 105px;
 }
   address {
+  grid-column: span 4;
   font-size: 18px;
   line-height: 24.3px;
   letter-spacing: 0.05px;
