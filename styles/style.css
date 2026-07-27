@@ -31,15 +31,14 @@
 }
 
 .header__menu__links {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   gap: 32px;
   list-style-type:circle;
-  /*padding-right: 1px;
   font-size: 18px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
-  border: 1px solid hsl(216, 73%, 37%);*/
+  border: 1px solid hsl(216, 73%, 37%);
 }
 
 .link__list {
@@ -68,9 +67,9 @@
 
 .header__logo__image {
   display: flex;
-  inline-size: auto;
-  width: 148px;
+    width: 148px;
   height: 105px;
+  z-index: auto;
 }
   address {
   grid-column: span 4;
