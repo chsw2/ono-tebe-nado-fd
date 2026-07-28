@@ -1,75 +1,81 @@
 /* место для вашего кода */
 /* хедер */
 
+.content-section {
+  
+}
+
 .header {
   display: grid;
   grid-template-columns: repeat(4, 1fr) repeat(1, 2fr) repeat(4, 1fr);
   padding: 92px 50px;
+  width: 1100px;
+  justify-items: center;
+  align-items: center;
   font-size: 18px;
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  box-sizing: border-box;
-  border: 1px solid red;
-}
-
-.content-section {
   font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  
+  border: 1px solid red;
 }
 
 .header__menu {
   grid-column-start: span 4;
   grid-column-end: auto;
-  display: flex;
-  justify-items: flex-start;
-  align-items: center;
-  list-style-position: inside;
-  
-  font-size: 18px;
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  border: 1px solid greenyellow;*/
+  padding-left: 1px;
+  margin-left: 53px;
+  width: 392px;
+  justify-items: center;
+  border: 1px solid greenyellow;
+  list-style-type: circle;
 }
+/*width: 391.4786376953125;
+height: 22.00001335144043;
+top: 133px;
+left: 50px;
+angle: 0 deg;
+opacity: 1;*/
+
 
 .header__menu__links {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
-  gap: 32px;
-  list-style-type:circle;
-  font-size: 18px;
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
+  justify-items: center;
+  align-items: center;
+  margin-inline: 1px;
+  gap: 25px;
   border: 1px solid hsl(216, 73%, 37%);
 }
 
 .link__list {
-  /*font-weight: 400;*/
+  list-style: none;
+}
+
+.link__main {
+  font-weight: 400;
   display: flex;
   text-underline-offset: 4px;
   font-size: 18px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   border: 1px solid #6a15d2;
+  list-style-type: circle;
 }
 
-.main__link_marker {
-  list-style: none;
+.main__link__marker {
+  list-style-type: circle;
 }
 
-.link__main {
-    list-style-type: none;
-}
-
- .header__logo {
+.header__logo  {
   display: block;
   grid-column: 5 / 6;
-  justify-items: center;
-}
-
-.header__logo__image {
-  display: flex;
-    width: 148px;
+  justify-self: center;
+  margin-left: 36;
+ }
+ 
+.header__logo__img {
+  width: 148px;
   height: 105px;
-  z-index: auto;
 }
   address {
   grid-column: span 4;
@@ -86,4 +92,3 @@
 
 
 /* ковер */
-
