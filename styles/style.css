@@ -15,7 +15,6 @@
   font-size: 18px;
   font-weight: 400;
   font-family: "Raleway", sans-serif;
-  
   border: 1px solid red;
 }
 
@@ -27,7 +26,6 @@
   width: 392px;
   justify-items: center;
   border: 1px solid greenyellow;
-  list-style-type: circle;
 }
 /*width: 391.4786376953125;
 height: 22.00001335144043;
@@ -44,27 +42,31 @@ opacity: 1;*/
   align-items: center;
   margin-inline: 1px;
   gap: 25px;
-  border: 1px solid hsl(216, 73%, 37%);
+  /*border: 1px solid hsl(216, 73%, 37%);*/
 }
 
-.link__list {
+.link__list__wom {
   list-style: none;
 }
 
-.link__main {
-  font-weight: 400;
+.link__main  {
+  list-style: none;
+  /*wom-без маркера*/
+
+  /*font-weight: 400;
   display: flex;
   text-underline-offset: 4px;
   font-size: 18px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
-  border: 1px solid #6a15d2;
+  border: 1px solid #6a15d2;*/
+}
+
+.link__list {
   list-style-type: circle;
 }
 
-.main__link__marker {
-  list-style-type: circle;
-}
+
 
 .header__logo  {
   display: block;
