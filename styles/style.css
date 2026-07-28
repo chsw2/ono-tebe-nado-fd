@@ -1,10 +1,6 @@
 /* место для вашего кода */
 /* хедер */
 
-.content-section {
-  
-}
-
 .header {
   display: grid;
   grid-template-columns: repeat(4, 1fr) repeat(1, 2fr) repeat(4, 1fr);
@@ -26,6 +22,7 @@
   width: 392px;
   justify-items: center;
   border: 1px solid greenyellow;
+
 }
 /*width: 391.4786376953125;
 height: 22.00001335144043;
@@ -46,13 +43,14 @@ opacity: 1;*/
 }
 
 .link__list__wom {
-  list-style: none;
+  /*wom-без маркера*/
+  /*list-style: none;*/
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .link__main  {
   list-style: none;
-  /*wom-без маркера*/
-
   /*font-weight: 400;
   display: flex;
   text-underline-offset: 4px;
@@ -66,8 +64,6 @@ opacity: 1;*/
   list-style-type: circle;
 }
 
-
-
 .header__logo  {
   display: block;
   grid-column: 5 / 6;
@@ -79,16 +75,19 @@ opacity: 1;*/
   width: 148px;
   height: 105px;
 }
-  address {
-  grid-column: span 4;
+
+.address {
+  grid-column: span  ;
+  margin-left: 184px;
   font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;  
   line-height: 24.3px;
   letter-spacing: 0.05px;
   justify-items: end;
   align-items: last baseline;
-  font-family: "Raleway", sans-serif;
+
   list-style-type: none;
-  font-style: normal;
   border: 1px solid greenyellow;
 }
 
