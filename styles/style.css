@@ -102,7 +102,53 @@ opacity: 1;*/
 .post__adr {
   list-style-type: none;
   text-decoration: none;
-  text-decoration-color: blueviolet;
 }
 
 /* ковер */
+
+.cover {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  max-height: 757;
+  color: #fff;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-position: center top; 
+}
+
+.cover__overlay {
+  position: absolute;
+  width: 100%;
+  max-height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+.cover__overlay__img {
+  position: relative;
+  padding: 167px 50px 50px ;
+  z-index: 2;
+
+}
+
+.cover__content__section {
+
+}
+
+.cover__title {
+  display: block;
+  z-index: 3;
+}
+
+.cover__description {
+
+}
+
+.cover__description__text {
+
+}
+
+.bet__button {
+
+}
