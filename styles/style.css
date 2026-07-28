@@ -32,7 +32,6 @@ left: 50px;
 angle: 0 deg;
 opacity: 1;*/
 
-
 .header__menu__links {
   display: flex;
   flex-direction: row;
@@ -54,6 +53,7 @@ opacity: 1;*/
 
 .link__main  {
   list-style: none;
+   text-decoration: none;
   /*border: 1px solid #6a15d2;*/
 }
 
@@ -77,19 +77,32 @@ opacity: 1;*/
   min-height: 105px;
 }
 
-.address {
+.header__address {
   display: block;
-  box-sizing: border-box;
+  grid-column: 6 / 10;
+  box-sizing: content-box;
+  margin-left: 180px;
+  font-style: normal;
   font-size: 18px;
   font-family: "Raleway", sans-serif;
   font-weight: 400;  
-  margin-left: 185px;
   line-height: 24.3px;
-  letter-spacing: 0.05px;
-  align-items: start;
-  list-style: none;
-  border: 1px solid greenyellow;
+  letter-spacing: 0,5px;
+  /*text-decoration: underline;*/
+  text-underline-offset: 4px;
+  /*border: 1px solid rgb(170, 26, 67);*/
 }
 
+.address {
+  align-items: start;
+  list-style: none;
+  /*border: 1px solid greenyellow;*/
+}
+
+.post__adr {
+  list-style-type: none;
+  text-decoration: none;
+  text-decoration-color: blueviolet;
+}
 
 /* ковер */
