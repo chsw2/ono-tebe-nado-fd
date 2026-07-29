@@ -11,7 +11,7 @@
   font-size: 18px;
   font-weight: 400;
   font-family: "Raleway", sans-serif;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 .header__menu {
@@ -22,16 +22,9 @@
   width: 392px;
   align-items: center;
   justify-items: center;
-  border: 1px solid greenyellow;
-
+  /*border: 1px solid greenyellow;*/
 }
-/*width: 391.4786376953125;
-height: 22.00001335144043;
-top: 133px;
-left: 50px;
-angle: 0 deg;
-opacity: 1;*/
-
+ 
 .header__menu__links {
   display: flex;
   flex-direction: row;
@@ -88,8 +81,8 @@ opacity: 1;*/
   font-weight: 400;  
   line-height: 24.3px;
   letter-spacing: 0,5px;
-  /*text-decoration: underline;*/
   text-underline-offset: 4px;
+  /*text-decoration: underline;*/
   /*border: 1px solid rgb(170, 26, 67);*/
 }
 
@@ -134,6 +127,7 @@ opacity: 1;*/
 }
 
 .cover__content__section {
+  box-sizing: content-box;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   gap: 20px;
@@ -149,19 +143,25 @@ opacity: 1;*/
 }
 
 .cover__title {
+  display: flex;
+  flex-direction: row;
+  line-height: 1;
   font-size: 100px;
-  letter-spacing: 30px;
   font-weight: 700; /*оно тебе надо*/
+  padding: 0px 50px;
+  letter-spacing: 30px;
   color: white;
   text-align: center;
   text-transform: uppercase;
   border: 2px solid rgb(252, 240, 7);
+  z-index: 3;
 }
 
 .cover__description {
-  display: inline-flex;
+  display: flex;
   width: 1000px;
   height: 51px;
+  padding: 10px;
   margin-left: 50px;
   margin-bottom: 50px;
   margin-right: 50px;
