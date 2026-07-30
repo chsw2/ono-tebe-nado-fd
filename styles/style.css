@@ -147,12 +147,8 @@
   display: grid;
   grid-template-columns: repeat(1fr, 100%);
   grid-template-rows: repeat(3 , 1fr);
-  grid-template-areas: p1;
-  grid-template-areas: p2;
-  grid-template-areas: p3;
-
-  
-
+  align-items: center;
+  justify-items: left;
   height: 385px;
   line-height: 1;
   font-size: 100px;
@@ -164,6 +160,16 @@
   border: 2px solid rgb(252, 240, 7);
   z-index: 3;
 }
+
+  .item1 { 
+    justify-self: start;
+  }
+  .item2 {
+    justify-self: center;
+  }
+  .item3 {
+    justify-self: end;
+  } 
 
 .cover__description {
   /*аукцион...в конце кнопка*/
