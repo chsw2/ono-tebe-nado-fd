@@ -113,6 +113,7 @@
   color: white;
   text-transform: uppercase;
   padding: 0px;
+  margin-bottom: 180px;
   margin: 0px;
   z-index: 0; 
   /*border: 2px solid rgb(226, 20, 174);*/
@@ -130,14 +131,9 @@
  /*сетка*/
   z-index: 2;
   display: grid;
-  grid-template-columns: repeat(1, 100%);
-  grid-template-rows: repeat(6, 1fr);
-  grid-row-start: 1;
-   
-  grid-row-end: 3;
   gap: 20px;
-  width: 1000;
-  max-height: 100%;
+  width: 1000px;
+  height: 385px;
   padding: 0px;
   margin-top: 165px;
   margin-left: 50px;
@@ -148,6 +144,16 @@
 
 .cover__title {
   /*оно тебе надо*/
+  display: grid;
+  grid-template-columns: repeat(1fr, 100%);
+  grid-template-rows: repeat(3 , 1fr);
+  grid-template-areas: p1;
+  grid-template-areas: p2;
+  grid-template-areas: p3;
+
+  
+
+  height: 385px;
   line-height: 1;
   font-size: 100px;
   font-weight: 700; 
@@ -169,6 +175,7 @@
   margin-bottom: 50px;
   margin-right: 50px;
   border: 2px solid transparent rgb(17, 230, 56);
+   z-index: 4;
 }
 
 .cover__description__text {
