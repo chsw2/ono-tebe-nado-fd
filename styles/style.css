@@ -212,38 +212,38 @@
 }
 
 .lots {
-  max-height: 723;
-  max-width: 1052;
+  max-height: 723px;
+  max-width: 1052px;
   margin: 145px;
   padding: 180px 24px;
   font-weight: bold;
 }
 
 .lots__content {
-/*margin-left: 40px;*/
-padding: 25px;
-text-indent: 40px;
-text-transform: uppercase;
-font-size: 40px;
+  /*margin-left: 40px;*/
+  padding: 25px;
+  text-indent: 40px;
+  text-transform: uppercase;
+  font-size: 40px;
 }
 
 .lots__cards {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: flex-start;
-column-gap: 25px;
-row-gap: 25px;
-padding-top: 2px;
-margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  column-gap: 25px;
+  row-gap: 25px;
+  padding-top: 2px;
+  margin-bottom: 30px;
 
 }
 
 .frames__cards {
-min-height: 563px;
-width: 334px;
-flex-grow: 1;
-list-style: none;
+  min-height: 563px;
+  width: 334px;
+  flex-grow: 1;
+  list-style: none;
 }
 
 .card__link {
@@ -254,8 +254,12 @@ list-style: none;
 
 }
 
-.overlay {
-
+.overlay__cards {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
 }
 
 .flex__box {
