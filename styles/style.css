@@ -211,73 +211,108 @@
   border: 1.5px solid rgb(247, 251, 248);
 }
 
+/*лоты*/
+
 .lots {
-  max-height: 723px;
-  max-width: 1052px;
-  margin: 145px;
-  padding: 180px 24px;
-  font-weight: bold;
+  /*position: relative;
+  display: flex;
+  flex-direction: column;
+  position: center; 
+  repeat: no-repeat;*/
+  height: 723px;
+  width: 1052px;
+  margin: 180px 24px 120px 24px;
+  border: 2px solid rgb(52, 242, 5);
 }
 
 .lots__content {
-  /*margin-left: 40px;*/
-  padding: 25px;
+  height: 100%;
+  width: 100%;
   text-indent: 40px;
   text-transform: uppercase;
   font-size: 40px;
+  font-weight: bold;
+  color: rgb(3, 3, 3);
+  border: 2px solid rgb(236, 218, 13);
 }
 
 .lots__cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  column-gap: 25px;
+  justify-content: space-between;
+  gap: 25px;
   row-gap: 25px;
   padding-top: 2px;
   margin-bottom: 30px;
-
-}
-
-.frames__cards {
-  min-height: 563px;
-  width: 334px;
-  flex-grow: 1;
   list-style: none;
 }
 
-.card__link {
+.frames__cards {
+  /*position: relative;
+  display: flex;*/
+  flex-direction: column;
+  justify-content: space-between;
+  height: 450px;
+  width: 450px;
+  line-height: 1.2;
+}
 
+.card__link {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: #f8f6f6;
 }
 
 .frame__kino__card__link {
+  background-image: url(../images/card-lot-01.jpg);
+}
 
+.frame__advertising {
+  background-image: url(../images/card-lot-02.jpg);
+}
+
+.frame__picture {
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .overlay__cards {
   height: 100%;
   width: 100%;
-  position: absolute;
+  position: relative;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 10;
 }
 
 .flex__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 51px 40 px 48px;
+}
+
+.cards__title {
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: uppercase;
+  z-index: 15;
 
 }
 
-.card__title {
-  
-}
-
-.frame__advertising {
-
-}
-
-.frame__picture {
-
+.cards__text{
+  font-size: 20px;
+  z-index: 15;
 }
 
 .down__link {
-
+  display: inline-block;
+  font-size: 20px;
+  padding-top: 1px;
+  text-indent: 40px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  
 }
