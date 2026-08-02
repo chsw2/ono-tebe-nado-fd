@@ -1,5 +1,5 @@
 /* место для вашего кода */
-/* хедер */
+/* ХЕДЕР */
 
 .header {
   display: grid;
@@ -81,7 +81,6 @@
   line-height: 24.3px;
   letter-spacing: 0,5px;
   text-underline-offset: 4px;
-  /*text-decoration: underline;*/
   /*border: 1px solid rgb(170, 26, 67);*/
 }
 
@@ -96,7 +95,7 @@
   text-decoration: none;
 }
 
-/* ковер */
+/* КОВЕР */
 
 .cover {
   position: relative;
@@ -185,7 +184,6 @@
   line-height: 28px;
   font-size: 22px;
   font-weight: 400px;
-  /*word-spacing: 18px;*/
   /*border: 2px solid rgb(17, 230, 56);*/
   z-index: 4;
 }
@@ -205,13 +203,12 @@
   line-height: 28px;
   font-size: 22px;
   word-spacing: 14px;
-  /*letter-spacing: 2px;*/
   background-color: transparent;
   color: white;
   border: 1.5px solid rgb(247, 251, 248);
 }
 
-/*лоты*/
+/*ЛОТЫ*/
 
 .lots {
   height: 723px;
@@ -235,7 +232,7 @@
   height: 676;
   max-width: 1100;
   justify-items: center;
-  border: 2px solid rgb(236, 218, 13);
+  /*border: 2px solid rgb(236, 218, 13);*/
 }
 
 .lots__cards {
@@ -246,30 +243,16 @@
   margin-left: 24px;
   margin-right: 25px;
   margin-bottom: 30px;
-  /*height: 676px;
-  width: 1052px;*/
-  list-style: none;
   max-height: 100%;
   max-width: 100%;
-  border: 2px solid rgb(236, 13, 46);
-  /*gap: 25px;
-  row-gap: 25px;
-  padding-top: 2px;
-  margin-bottom: 27px;*/
- 
-  
+  list-style: none;
+  /*border: 2px solid rgb(236, 13, 46);*/
 }
 
 .frames__cards {
-  
-  /*display: flex;
-  flex-direction: column;
-  justify-content: space-between;*/
   height: 596px;
   width: 334px;
-  b
-  /*line-height: 1.2;*/
-  border: 2px solid rgb(97, 11, 255);
+  /*border: 2px solid rgb(97, 11, 255);*/
 }
 
 .card__link {
@@ -322,7 +305,6 @@
   justify-content: space-between;
   height: 100%;
   width: 100%;
-  /*padding: 51px 40 px 48px;*/
 }
 
 .cards__title {
@@ -335,7 +317,6 @@
   text-align: left;
   text-decoration: underline;
   text-transform: uppercase;
-  z-index: 15;
 
 }
 
@@ -346,13 +327,9 @@
   margin-bottom: 48px;
   padding: 0px 0px 0px;
   font-size: 20px;
-  z-index: 15;
 }
 
 .down__link {
-  /*display: flex;
-  flex-direction: column;
-  justify-content: space-between;*/
   height: 25px;
   margin-top: 55px;
   margin-bottom: 2px;
@@ -360,3 +337,87 @@
   text-indent: 40px;
   text-decoration: underline;
  }
+
+/*ОБ АУКЦИОНЕ*/
+
+.about {
+
+}
+
+.about__column {
+
+}
+
+.abouut__logo {
+
+}
+
+.about__title {
+
+}
+
+.about__title__text {
+
+}
+
+.about__content__section {
+
+}
+
+.about__text {
+
+}
+
+
+
+
+ /*ПОДВАЛ*/
+
+ .footer {
+
+ }
+
+.footer__menu {
+
+}
+
+.footer__menu__links {
+
+}
+
+.link__list__wom {
+
+}
+
+.liink__main {
+
+}
+
+.link__list {
+
+}
+
+.footer__logo {
+
+}
+
+.footer__logo__img {
+
+}
+
+.footer__address {
+
+}
+
+.address {
+
+}
+
+.post__adr {
+  
+}
+
+
+
+
+
