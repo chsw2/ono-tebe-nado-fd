@@ -341,44 +341,84 @@
 /*ОБ АУКЦИОНЕ*/
 
 .about {
-
+  display: flex;
+  flex-direction: row;
+  height: 595px;
+  width: 1052px;
+  padding-top: 35px;
+  padding-left: 47px;
+  margin: 120px 24px 180px 24px;
+  border: 1px solid red;
 }
 
-.about__column {
-
+.about__row {
+  display: flex;
+  min-width: 956px;
+  margin-left: 47px;
+  margin-top: 35px;
+  margin-right: 402px;
+  margin-bottom: 0px; 
+  justify-self: center;
+  align-self: center;
+  justify-self: center;
+  border: 1px solid rgb(208, 198, 9);
 }
 
-.abouut__logo {
-
+.about__logo {
+  display: inline-block;
+  background-image: url(../images/logo-white.svg);
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: 70%;
+  background-color: black;
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+  margin: 0px;
+  border: 1px solid rgb(0, 11, 3);
 }
 
 .about__title {
-
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin-left: 72px;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .about__title__text {
-
+  text-transform: uppercase;
+  text-align: center;  
 }
 
 .about__content__section {
-
+  display: flex;
+  display: contents;
+  font-weight: normal;
 }
 
 .about__text {
-
+  font-size: 20px;
+  line-height: 24px;
 }
-
-
-
 
  /*ПОДВАЛ*/
 
  .footer {
+  display: grid;
+  grid-template-columns: 1fr 150px 1fr;
+  padding: 0px 0px 80px; 
+  width: 1100px;
+  justify-items: stretch;
+  font-size: 18px;
 
+  border-top: 1px solid transparent;
  }
 
 .footer__menu {
-
+  display: flex;
+  padding-top: 2px;
 }
 
 .footer__menu__links {
@@ -414,7 +454,7 @@
 }
 
 .post__adr {
-  
+
 }
 
 
