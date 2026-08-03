@@ -344,9 +344,10 @@
 .about {
   display: flex;
   flex-direction: row;
+  height: 595px;
   width: 1052px;
-  padding-top: 35px;
-  padding-left: 47px;
+  /*padding-top: 35px;
+  padding-left: 47px;*/
   margin: 120px 24px 180px 24px;
   border: 1px solid red;
 }
@@ -354,11 +355,10 @@
 .about__row {
   display: flex;
   flex-direction: column;
-  height: 242px;
-  min-width: 956px;
+  height: 240px;
+  width: 956px;
   margin-left: 47px;
   margin-top: 35px;
-  margin-right: 402px;
   margin-bottom: 0px; 
   /*justify-self: start;
   align-self: self-start;
@@ -368,15 +368,16 @@
 
 .about__logo {
   display: inline-block;
+  position: absolute;
+  width: 240px;
+  height: 240px;
   background-image: url(../images/logo-white.svg);
   background-repeat: no-repeat;
   background-position: center; 
-  background-size: 70%;
+  background-size: 60%;
   background-color: black;
   border-radius: 50%;
-  width: 240px;
-  height: 240px;
-  margin: 0px;
+  /*margin: 35px 72px 320px 47px;*/
   border: 1px solid rgb(0, 11, 3);
 }
 
@@ -385,22 +386,30 @@
   align-items: center;
   justify-items: center;
   margin-left: 72px;
+  margin-top: 100px;
+  padding-top: 3px;
+  
 }
 
 
 .about__title__text {
   display: flex;
+  align-self: flex-start; 
+  margin-left: 288px;
+  text-transform: uppercase;
   font-size: 40px;
   font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;  
+  color: black;
+  border: 2px solid rgb(247, 251, 8);
 }
 
 .about__content__section {
   display: flex;
-  min-height: 312px;
-  width: 688px;
-  margin: 8px 2px 2px 359px;
+  flex-wrap: wrap;
+  height: 319px;
+  width: 693px;
+  padding: 1px;
+  margin: 85px 0px 0px 309px;
   font-weight: normal;
   color: black;
   border: 2px solid brown;
@@ -410,8 +419,23 @@
   display: flex;
   font-size: 20px;
   line-height: 24px;
-  border: 2px solid rgb(47, 14, 196);
+  margin-right: 5px;
+  /*margin-top: 100px;*/
+  letter-spacing: 0%;
+  
+  /*border: 2px solid rgb(47, 14, 196);*/
 }
+
+.about__text__next {
+  display: flex;
+  font-size: 20px;
+  line-height: 24px;
+  padding-top: 24px;
+  padding-bottom: 13px;
+  letter-spacing: 0%;
+  /*border: 2px solid rgb(47, 14, 196);*/
+}
+
 
  /*ПОДВАЛ*/
 
