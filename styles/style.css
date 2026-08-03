@@ -358,8 +358,8 @@
   margin-top: 35px;
   margin-right: 402px;
   margin-bottom: 0px; 
-  justify-self: center;
-  align-self: center;
+  justify-self: start;
+  align-self: self-start;
   justify-self: center;
   border: 1px solid rgb(208, 198, 9);
 }
@@ -393,14 +393,18 @@
 }
 
 .about__content__section {
-  display: flex;
-  display: contents;
+  display: grid;
+  grid-template-rows: repeat (2,1fr); 
+  /*padding-top: 100px;*/
   font-weight: normal;
+  color: black;
+  border: 2px solid brown;
 }
 
 .about__text {
   font-size: 20px;
   line-height: 24px;
+  border: 2px solid rgb(47, 14, 196);
 }
 
  /*ПОДВАЛ*/
