@@ -345,7 +345,7 @@
   height: 595px;
   width: 1052px;
   margin: 120px 24px 180px 24px;
-  border: 1px solid red;*/
+  /*border: 1px solid red;*/
 }
 
 .about__row {
@@ -354,7 +354,7 @@
   height: 240px;
   width: 956px;
   margin: 35px 0px 0px 47px;
-  border: 1px solid rgb(208, 198, 9);
+  /*border: 1px solid rgb(208, 198, 9);*/
 }
 
 .about__logo {
@@ -368,8 +368,8 @@
   background-size: 60%;
   background-color: black;
   border-radius: 50%;
-  /*margin: 35px 72px 320px 47px;*/
-  border: 1px solid rgb(0, 11, 3);
+  /*margin: 35px 72px 320px 47px;
+  border: 1px solid rgb(0, 11, 3);*/
 }
 
 .about__title {
@@ -388,7 +388,7 @@
   font-size: 40px;
   font-weight: bold;
   color: black;
-  border: 2px solid rgb(247, 251, 8);
+  /*border: 2px solid rgb(247, 251, 8);*/
 }
 
 .about__content__section {
@@ -400,7 +400,7 @@
   margin: 100px 0px 0px 288px;
   font-weight: normal;
   color: black;
-  border: 2px solid brown;
+  /*border: 2px solid brown;*/
 }
 
 .about__text {
@@ -424,52 +424,52 @@
   /*border: 2px solid rgb(47, 14, 196);*/
 }
 
-
  /*ПОДВАЛ*/
-
  .footer {
   display: flex;
-  height: 180px;
-  width: 1100px;
+  /*height: 180px;
+  width: 1100px;*/
+  gap: 18px;
+  justify-content: space-between;
+  align-items: start;
   font-size: 18px;
   font-weight: 400px;
   font-family: "Raleway", sans-serif;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
  }
 
 .footer__menu {
   display: flex;
-  margin: 1px 467.5px 115px 0px;
-  width: 265px;
-  border: 1px solid greenyellow;
+  justify-items: center;
+  align-items: center;
+  /*border: 1px solid greenyellow;*/
 }
 
 .footer__menu__links {
   display: flex;
-  flex-direction: row;
-  justify-items: center;
-  align-items: center;
-  margin: 1px 467.5px 115px 0px;
-  gap: 25px;
+  flex-direction: column;
+  margin: 0px 0px 82px 50px;
+  text-align: center;
+  text-wrap: nowrap;
   text-decoration: none;
-  border: 1px solid hsl(216, 73%, 37%);
+  /*border: 1px solid hsl(216, 73%, 37%);*/
 }
 
-.link__list__wom {
+.link__list__wom_f {
   /*wom-без маркера*/
-  text-decoration: none;
   list-style-type: none;
+  list-style: none;
 }
 
-.liink__main {
+.link__main_f {
   list-style: none;
   text-decoration: none;
-  border: 1px solid #6a15d2;*/
-
+  /*border: 1px solid #6a15d2;*/
 }
 
-.link__list {
-  list-style-type: circle;
+.link__list_f {
+  list-style-type: none;
+  list-style: none;
   text-decoration: underline;
   text-underline-offset: 4px;
 }
@@ -477,57 +477,49 @@
 .footer__logo__box {
   display: block;
   flex-direction: column;
-  height: 48px;
-  width: 240px;
-  grid-column: 5 / 6;
+  /*height: 48px;
+  width: 240px;*/
   justify-self: center;
   align-self: center;
-  margin: auto;
-  border: 1px solid #1b9fc0;*/
+  margin: 1px 50px 131px 0px;
+  /*border: 1px solid #1b9fc0;*/
 }
 
 .footer__logo1__img {
   height: 48px;
   width: 48px;
+  margin-left: 0px;
 }
 
 .footer__logo2__img {
   height: 48px;
   width: 48px;
+  margin-left: 48px;
 }
 
 .footer__logo3__img {
   height: 48px;
   width: 48px;
+  margin-left: 48px;
 }
 
 .footer__address {
-  display: block;
-  /*box-sizing: content-box;*/
-  width: 200px;
-  margin: 0px 50px 100px 0px ;
-  font-style: normal;
-  font-size: 18px;
-  font-family: "Raleway", sans-serif;
-  line-height: 24.3px;
-  letter-spacing: 0,5px;
+  display: flex;
+  flex-direction: column;
   text-underline-offset: 4px;
-  border: 1px solid rgb(170, 26, 67);*/
+  line-height: 24.3px;
+  margin: 0px 0px 82px 50px;
+  /*border: 1px solid rgb(170, 26, 67);*/
 }
 
 .address {
   align-items: start;
   list-style: none;
-  border: 1px solid greenyellow;*/
-
+  font-style: normal;
+  /*border: 1px solid greenyellow;*/
 }
 
 .post__adr {
   list-style-type: none;
   text-decoration: none;
 }
-
-
-
-
-
