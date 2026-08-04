@@ -157,7 +157,6 @@
   text-transform: uppercase;
   z-index: 3;
   /*border: 2px solid rgb(252, 240, 7);*/
-
 }
 
   .item1 { 
@@ -318,10 +317,9 @@
   text-align: left;
   text-decoration: underline;
   text-transform: uppercase;
-
 }
 
-.cards__text{
+.cards__text {
   text-align: start;
   margin-left: 40px;
   margin-right: 40px;
@@ -382,7 +380,6 @@
   margin-top: 101px; 
 }
 
-
 .about__title__text {
   display: flex;
   align-self: flex-start; 
@@ -431,28 +428,20 @@
  /*ПОДВАЛ*/
 
  .footer {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr) repeat(1, 2fr) repeat(4, 1fr);
-  padding: 92px 50px;
+  display: flex;
+  height: 180px;
   width: 1100px;
-  justify-items: center;
-  align-items: center;
   font-size: 18px;
   font-weight: 400px;
   font-family: "Raleway", sans-serif;
-  /*border: 1px solid red;*/
-
+  border: 1px solid red;
  }
 
 .footer__menu {
-  grid-column-start: span 4;
-  grid-column-end: auto;
-  padding-left: 1px;
-  margin-left: 1px;
-  width: 392px;
-  align-items: center;
-  justify-items: center;
-  /*border: 1px solid greenyellow;*/
+  display: flex;
+  margin: 1px 467.5px 115px 0px;
+  width: 265px;
+  border: 1px solid greenyellow;
 }
 
 .footer__menu__links {
@@ -460,11 +449,10 @@
   flex-direction: row;
   justify-items: center;
   align-items: center;
-  margin-inline: 1px;
-  margin-right: auto;
+  margin: 1px 467.5px 115px 0px;
   gap: 25px;
   text-decoration: none;
-  /*border: 1px solid hsl(216, 73%, 37%);*/
+  border: 1px solid hsl(216, 73%, 37%);
 }
 
 .link__list__wom {
@@ -476,7 +464,7 @@
 .liink__main {
   list-style: none;
   text-decoration: none;
-  /*border: 1px solid #6a15d2;*/
+  border: 1px solid #6a15d2;*/
 
 }
 
@@ -486,39 +474,51 @@
   text-underline-offset: 4px;
 }
 
-.footer__logo {
+.footer__logo__box {
   display: block;
+  flex-direction: column;
+  height: 48px;
+  width: 240px;
   grid-column: 5 / 6;
   justify-self: center;
-  align-items: center;
-  padding: 2.74px 12.56px 7.37px 11.39px;
+  align-self: center;
   margin: auto;
+  border: 1px solid #1b9fc0;*/
 }
 
-.footer__logo__img {
-  min-height: 105px;
-  min-width: 148px;
+.footer__logo1__img {
+  height: 48px;
+  width: 48px;
+}
+
+.footer__logo2__img {
+  height: 48px;
+  width: 48px;
+}
+
+.footer__logo3__img {
+  height: 48px;
+  width: 48px;
 }
 
 .footer__address {
   display: block;
-  grid-column: 6 / 10;
-  box-sizing: content-box;
-  margin-left: 180px;
+  /*box-sizing: content-box;*/
+  width: 200px;
+  margin: 0px 50px 100px 0px ;
   font-style: normal;
   font-size: 18px;
   font-family: "Raleway", sans-serif;
-  font-weight: 400;  
   line-height: 24.3px;
   letter-spacing: 0,5px;
   text-underline-offset: 4px;
-  /*border: 1px solid rgb(170, 26, 67);*/
+  border: 1px solid rgb(170, 26, 67);*/
 }
 
 .address {
   align-items: start;
   list-style: none;
-  /*border: 1px solid greenyellow;*/
+  border: 1px solid greenyellow;*/
 
 }
 
