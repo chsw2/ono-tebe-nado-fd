@@ -18,8 +18,8 @@
 .header__menu {
   grid-column-start: span 4;
   grid-column-end: auto;
-  padding-left: 1px;
-  margin-left: 1px;
+  /*padding-left: 0px;
+  margin-left: 0px;*/
   width: 392px;
   align-items: center;
   justify-items: center;
@@ -31,7 +31,7 @@
   flex-direction: row;
   justify-items: center;
   align-items: center;
-  margin-inline: 1px;
+  /*margin-inline: 1px;*/
   margin-right: auto;
   gap: 25px;
   text-decoration: none;
@@ -61,7 +61,7 @@
   grid-column: 5 / 6;
   justify-self: center;
   align-items: center;
-  padding: 2.74px 12.56px 7.37px 11.39px;
+  padding: 2.79px 12.56px 7.37px 11.39px;
   margin: auto;
  }
  
@@ -74,7 +74,7 @@
   display: block;
   grid-column: 6 / 10;
   box-sizing: content-box;
-  margin-left: 180px;
+  margin-left: 184px;
   font-style: normal;
   font-size: 18px;
   font-family: "Raleway", sans-serif;
@@ -113,7 +113,7 @@
   text-transform: uppercase;
   padding: 0px;
   margin-bottom: 180px;
-  margin: 0px;
+  /*margin: 0px;*/
   z-index: 0; 
   /*border: 2px solid rgb(226, 20, 174);*/
 }
@@ -149,11 +149,11 @@
   grid-template-rows: repeat(3 , 1fr);
   align-items: center;
   justify-items: left;
-  line-height: 1;
+  line-height: 0.5;
   font-size: 100px;
   font-weight: 700; 
   color: white;
-  letter-spacing: 30px;
+  letter-spacing: 30%;
   text-align: center;
   text-transform: uppercase;
   z-index: 3;
@@ -177,20 +177,24 @@
   width: 1000px;
   padding: 2px;
   margin-left: 50px;
-  margin-right: 413px;
-  margin-bottom: 50px;
+  /*margin-right: 413px;*/
+  margin-bottom: 61px;
   align-items: center;
   justify-items: center;
-  text-transform: uppercase;
   line-height: 28px;
   font-size: 22px;
-  font-weight: 400px;
+  font-weight: 400;
   /*border: 2px solid rgb(17, 230, 56);*/
   z-index: 4;
 }
 
 .cover__description__text {
-  align-items: start; 
+  /*align-items: start;*/
+  width: 637px;
+  padding: 0px;
+  letter-spacing: 10%; 
+  text-transform: uppercase;
+  word-spacing: 15%;
 }
 
 .bet__button {
@@ -198,7 +202,7 @@
   text-align: center;
   height: 51px;
   width: 270px;
-  padding: 10px 30px;
+  padding: 12px 32px 11px 31px;
   margin-left: auto;
   text-transform: uppercase;
   line-height: 28px;
