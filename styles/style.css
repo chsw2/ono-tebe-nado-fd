@@ -32,10 +32,12 @@
   flex-direction: row;
   justify-items: center;
   align-items: center;
+  gap: 25px;
   /*margin-inline: 1px;
   margin-right: auto;*/
-  gap: 30px;
-  text-decoration: none;
+  
+  /*text-decoration: none;*/
+
   /*letter-spacing: 0.2px;*/
   /*border: 1px solid hsl(216, 73%, 37%);*/
 }
@@ -49,6 +51,7 @@
 .link__main  {
   list-style: none;
   text-decoration: none;
+  text-align: start;
   /*border: 1px solid #6a15d2;*/
 }
 
