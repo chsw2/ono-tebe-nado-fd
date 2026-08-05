@@ -66,8 +66,8 @@
  }
  
 .header__logo__img {
-  min-height: 105px;
-  min-width: 148px;
+  height: 105px;
+  width: 148px;
 }
 
 .header__address {
