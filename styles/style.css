@@ -6,6 +6,7 @@
   grid-template-columns: repeat(4, 1fr) repeat(1, 2fr) repeat(4, 1fr);
   padding: 92px 50px;
   width: 1100px;
+  height: 293;
   justify-items: center;
   align-items: center;
   font-size: 18px;
