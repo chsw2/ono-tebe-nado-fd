@@ -36,7 +36,7 @@
   margin-right: auto;*/
   gap: 30px;
   text-decoration: none;
-  letter-spacing: 0.2px;
+  /*letter-spacing: 0.2px;*/
   /*border: 1px solid hsl(216, 73%, 37%);*/
 }
 
@@ -157,7 +157,7 @@
   font-size: 100px;
   font-weight: 700; 
   color: white;
-  letter-spacing: 30%;
+  letter-spacing: 10%;
   text-align: center;
   text-transform: uppercase;
   z-index: 3;
@@ -182,7 +182,7 @@
   padding: 2px;
   margin-left: 50px;
   /*margin-right: 413px;*/
-  margin-bottom: 61px;
+  margin-bottom: 50px;
   align-items: center;
   justify-items: center;
   line-height: 28px;
@@ -212,6 +212,7 @@
   line-height: 28px;
   font-size: 22px;
   word-spacing: 14px;
+  letter-spacing: 0%;
   background-color: transparent;
   color: white;
   border: 1.5px solid rgb(247, 251, 248);
