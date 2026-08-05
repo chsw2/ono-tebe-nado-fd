@@ -20,6 +20,7 @@
   grid-column-start: span 4;
   grid-column-end: auto;
   padding: 0px 0px 20px 0px;
+  margin-left: 50px;
   width: 392px;
   align-items: center;
   justify-items: center;
@@ -35,6 +36,7 @@
   margin-right: auto;*/
   gap: 30px;
   text-decoration: none;
+  letter-spacing: 0.2px;
   /*border: 1px solid hsl(216, 73%, 37%);*/
 }
 
