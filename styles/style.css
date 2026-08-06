@@ -78,8 +78,8 @@
   grid-column: 6 / 10;
   box-sizing: content-box;
   /*margin-left: 104px;*/
-  /margin-right: 10px;
-
+  /*margin-right: 10px;*/
+  padding-left: 185px;
   padding-bottom: 10px;
   font-style: normal;
   font-size: 18px;
