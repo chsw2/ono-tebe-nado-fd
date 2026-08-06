@@ -18,11 +18,13 @@
 .header__menu {
   grid-column-start: span 4;
   grid-column-end: auto;
+  text-wrap: nowrap;
   width: 392px;
   align-items: center;
   justify-items: center;
   padding: 0px 0px 25px 10px;
-  margin-left: 50px;
+  padding-left: 50px;
+  /*padding-top: 92px;*/
   /*border: 1px solid greenyellow;*/
 }
  
@@ -76,7 +78,7 @@
   grid-column: 6 / 10;
   box-sizing: content-box;
   /*margin-left: 104px;*/
-  margin-right: 50px;
+  margin-right: 30px;
   padding-bottom: 10px;
   font-style: normal;
   font-size: 18px;
