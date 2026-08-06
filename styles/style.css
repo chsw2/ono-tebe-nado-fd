@@ -110,8 +110,8 @@
   flex-direction: column;
   max-height: 757px;
   /*min-width: 1100px;*/
-  padding: 0px;
-  margin-bottom: 180px;
+  /*padding: 0px;*/
+  /*margin-bottom: 180px;*/
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center; 
@@ -190,7 +190,7 @@
   width: 1000px;
   align-items: center;
   margin-top: 106px;
-  margin-bottom: 120px;
+  /*margin-bottom: 120px;*/
   font-family: Raleway;
   font-weight: 400;
   font-style: normal;
@@ -236,14 +236,15 @@
 
 .lots {
   height: 757px;
-  /*margin-top: 180px;*/
+  margin-top: 180px;
   /*border: 2px solid rgb(52, 242, 5);*/
 }
 
 .lots__content {
+
   height: 47px;
-  width: 100%;
-  margin-bottom: 27px;
+  /*width: 100%;*/
+  /*margin-bottom: 180px;*/
   margin-left: 64px;
   font-family: Raleway;
   font-weight: 700;
@@ -258,7 +259,7 @@
 
 .frame__lots {
   height: 676px;
-  max-width: 1100px;
+  /*max-width: 1100px;*/
   justify-items: center;
   /*border: 2px solid rgb(236, 218, 13);*/
 }
@@ -269,6 +270,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin-left: 24px;
+  /*margin-top: 180px;*/
   margin-right: 25px;
   margin-bottom: 30px;
   max-height: 100%;
