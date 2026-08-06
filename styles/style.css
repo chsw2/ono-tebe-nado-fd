@@ -6,7 +6,7 @@
   grid-template-columns: repeat(4, 1fr) repeat(1, 2fr) repeat(4, 1fr);
   padding: 92px 0px 96px 0px;
   height: 293px;
-  width: 1100px;
+  /*max-width: 1100px;*/
   justify-items: center;
   align-items: center;
   font-family: "Raleway", sans-serif;
@@ -78,7 +78,8 @@
   grid-column: 6 / 10;
   box-sizing: content-box;
   /*margin-left: 104px;*/
-  margin-right: 30px;
+  /*margin-right: 10px;*/
+
   padding-bottom: 10px;
   font-style: normal;
   font-size: 18px;
@@ -108,7 +109,7 @@
   display: flex;
   flex-direction: column;
   max-height: 757px;
-  min-width: 1100px;
+  /*min-width: 1100px;*/
   padding: 0px;
   margin-bottom: 180px;
   background-image: url(../images/cover.jpg);
@@ -389,7 +390,7 @@
   display: flex;
   flex-direction: row;
   height: 595px;
-  width: 1052px;
+  /*width: 1052px;*/
   margin: 120px 24px 180px 24px;
   /*border: 1px solid red;*/
 }
