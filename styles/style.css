@@ -31,7 +31,7 @@
   flex-direction: row;
   justify-items: center;
   align-items: center;
-  gap: 25px;
+  gap: 30px;
   /*margin-inline: 1px;*/
   /*margin-right: auto;*/
   /*text-decoration: none;*/
@@ -234,7 +234,7 @@
 .lots {
   height: 757px;
   /*margin-top: 180px;*/
-  border: 2px solid rgb(52, 242, 5);
+  /*border: 2px solid rgb(52, 242, 5);*/
 }
 
 .lots__content {
