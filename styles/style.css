@@ -426,6 +426,7 @@ letter-spacing: 0%; */
   height: 595px;
   /*width: 1052px;*/
   margin: 120px 24px 180px 24px;
+
   /*border: 1px solid red;*/
 }
 
@@ -435,6 +436,7 @@ letter-spacing: 0%; */
   height: 240px;
   width: 956px;
   margin: 35px 0px 0px 47px;
+
   /*border: 1px solid rgb(208, 198, 9);*/
 }
 
@@ -469,6 +471,7 @@ letter-spacing: 0%; */
   font-size: 40px;
   font-weight: bold;
   color: black;
+
   /*border: 2px solid rgb(247, 251, 8);*/
 }
 
@@ -481,6 +484,7 @@ letter-spacing: 0%; */
   margin: 100px 0px 0px 288px;
   font-weight: normal;
   color: black;
+
   /*border: 2px solid brown;*/
 }
 
@@ -490,7 +494,9 @@ letter-spacing: 0%; */
   line-height: 24px;
   letter-spacing: 0%;
   margin-right: 5px;
+
   /*margin-top: 100px;*/
+
   /*border: 2px solid rgb(47, 14, 196);*/
 }
 
@@ -502,6 +508,7 @@ letter-spacing: 0%; */
   padding-top: 20px;
   padding-bottom: 13px;
   letter-spacing: 0%;
+
   /*border: 2px solid rgb(47, 14, 196);*/
 }
 
@@ -516,13 +523,16 @@ letter-spacing: 0%; */
   font-size: 18px;
   font-weight: 400px;
   font-family: "Raleway", sans-serif;
+
   /*border: 1px solid red;*/
+
  }
 
 .footer__menu {
   display: flex;
   justify-items: center;
   align-items: center;
+
   /*border: 1px solid greenyellow;*/
 }
 
@@ -533,6 +543,7 @@ letter-spacing: 0%; */
   text-align: center;
   text-wrap: nowrap;
   text-decoration: none;
+
   /*border: 1px solid hsl(216, 73%, 37%);*/
 }
 
@@ -545,6 +556,7 @@ letter-spacing: 0%; */
 .link__main_f {
   list-style: none;
   text-decoration: none;
+
   /*border: 1px solid #6a15d2;*/
 }
 
@@ -558,11 +570,10 @@ letter-spacing: 0%; */
 .footer__logo__box {
   display: block;
   flex-direction: column;
-  /*height: 48px;
-  width: 240px;*/
   justify-self: center;
   align-self: center;
   margin: 1px 50px 131px 0px;
+
   /*border: 1px solid #1b9fc0;*/
 }
 
@@ -590,6 +601,7 @@ letter-spacing: 0%; */
   text-underline-offset: 4px;
   line-height: 24.3px;
   margin: 0px 0px 82px 50px;
+
   /*border: 1px solid rgb(170, 26, 67);*/
 }
 
@@ -597,6 +609,7 @@ letter-spacing: 0%; */
   align-items: start;
   list-style: none;
   font-style: normal;
+  
   /*border: 1px solid greenyellow;*/
 }
 
