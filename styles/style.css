@@ -1,5 +1,8 @@
 /* место для вашего кода */
 /* ХЕДЕР */
+body {
+  border: 1px solid rgb(97, 233, 34);
+}
 
 .header {
   display: grid;
@@ -504,12 +507,13 @@
 
  /*ПОДВАЛ*/
  .footer {
-  grid-column-start: span 1;
-  grid-column-end: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
   height: 180px;
   width: 100%;
-  justify-content: start;
-  align-items: start;
+  /*justify-content: start;
+  align-content: start;*/
   font-size: 18px;
   font-weight: 400px;
   font-family: "Raleway", sans-serif;
@@ -519,8 +523,9 @@
 
 .footer__address {
   display: flex;
+  flex-direction: column;
   height: 98px;
-  width: fit-content;
+  width: 264.57px;
   line-height: 24.3px;
   letter-spacing: 0%;
   margin: 2px 0px 82px 50px;
@@ -530,8 +535,6 @@
 }
 
 .address {
-  align-items: start;
-  justify-content: flex-start;
   list-style: none;
   font-style: normal;
   word-spacing: -15%;
@@ -541,12 +544,11 @@
 }
 
 .post__adr {
-  align-items: start;
   list-style-type: none;
   text-decoration: none;
   font-style: normal;
-  height: 49px;
-  width: 260.7px;
+  /*height: 49px;*/
+  /*width: 260.7px;*/
   line-height: 24.3px;
   word-spacing: 1px;
   margin: 0px 0px 0px 0px;
@@ -555,24 +557,27 @@
 
 .footer__menu {
   display: flex;
-  justify-items: start;
   align-items: start;
+  justify-items: center;
   height: 64px;
-  width: 163.9px;
-  margin: 1px 0px 0px 0px;
-  padding: 8px;
-
+  width: 163.9;
+  margin: 1px 177.5px 115px 154.03px;
+ 
   /*border: 1px solid greenyellow;*/
 }
 
 .footer__menu__links {
   display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
   line-height: normal;
   letter-spacing: 0%;
   text-align: center;
   text-wrap: nowrap;
   text-decoration: none;
-
+  text-underline-offset: 20%;
+   
   /*border: 1px solid hsl(216, 73%, 37%);*/
 }
 
@@ -580,6 +585,7 @@
   /*wom-без маркера*/
   list-style-type: none;
   list-style: none;
+ 
   padding-bottom: 0px;
 
 }
@@ -600,34 +606,32 @@
 
 .footer__link__logo__box {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-items: flex-start;
-  max-height: 48px;
-  max-width: 250px;
-  margin-top: 1px;
-  margin-right: 50px;
-  margin-left: 177.5px;*/
-  padding: 0px 0px 0px 0px;
-  list-style-type: none;
-  
-
+  width: 240px;
+  align-items: start;
+  justify-items: start;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
   /*border: 1px solid #6a15d2;*/
  }
 
 .footer__link__logo__img {
-  
-  height: 48px;
-  width: 250px;
+  display: flex;
+  height: fit-content;
+  width: fit-content;
   margin: 0px;
-  padding: 0px;
+  padding: 0px;*/
   
   /*border: 1px solid #2385f5;*/
 }
 
 .link__img__f {
-  height: 48px;
-  width: 48px;
+  display: flex;
   padding: 0px 0px 0px 0px;
   margin: 0px 24px 0px 24px;
+}
+
+.link__img__f__icon {
+  height: 48px;
+  width: 48px;
 }
