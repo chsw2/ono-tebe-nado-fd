@@ -1,8 +1,8 @@
 /* место для вашего кода */
 /* ХЕДЕР */
-body {
-  /*border: 1px solid rgb(97, 233, 34);*/
-}
+/*body {
+  /*border: 1px solid rgb(97, 233, 34);
+}*/
 
 .header {
   display: grid;
@@ -24,8 +24,8 @@ body {
   width: 392px;
   align-items: start;
   justify-items: start;
-  margin-bottom: 18px;
-  padding-left: 52px;
+  padding-bottom: 15px;
+  padding-left: 50px;
    
   /*border: 1px solid greenyellow;*/
 }
@@ -64,18 +64,23 @@ body {
   letter-spacing: 3%;
 }
 
-  .header__logo  {
+.header__logo  {
   grid-column: 5 / 6;
-  justify-self: center;
+  display: block;
+  justify-items: center;
   align-items: center;
-  margin-left: 25px;
-  margin-bottom: 5px;
-  padding: 2.79px 12.56px 7.37px 11.39px;
+  padding: 0px 0px 10px 10px;
  }
- 
+
 .header__logo__img {
+  display: flex;
   height: 105px;
   width: 148px; 
+}
+
+.header__logo__img_pic {
+  margin: 0px 0px 0px 36.52px;
+  padding: 2.79px 12.56px 7.37px 11.39px;
 }
 
 .header__address {
@@ -103,7 +108,7 @@ body {
   /*border: 1px solid greenyellow;*/
 }
 
-.tel {
+.telefon {
   text-align: start;
 }
 
