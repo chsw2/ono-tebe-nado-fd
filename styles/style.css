@@ -10,6 +10,7 @@
   padding: 92px 0px 96px 0px;
   height: 293px;
   align-items: center;
+  justify-items: center;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 400px;
@@ -26,6 +27,7 @@
   justify-items: start;
   padding-bottom: 15px;
   padding-left: 50px;
+  padding-right: 36.52;
    
   /*border: 1px solid greenyellow;*/
 }
@@ -60,16 +62,20 @@
   text-decoration: underline;
   text-align: center;
   text-underline-offset: 3px;
-  word-spacing: -1px;
-  letter-spacing: 3%;
+  word-spacing: 5px;
+  letter-spacing: 0%;
+  line-height: 100%;
 }
 
 .header__logo  {
-  grid-column: 5 / 6;
-  display: block;
-  justify-items: center;
+  grid-column: 6 / -4;
+  grid-column-start: 6;
+  
+  /*display: block;*/
+  justify-items: start;
   align-items: center;
-  padding: 0px 0px 10px 10px;
+  /*padding: 0px 20px 10px 10px;*/
+  /*margin: ;: 0px 0px 10px 10px;*/
  }
 
 .header__logo__img {
