@@ -49,21 +49,17 @@
   text-decoration: none;
   list-style-type: none;
   list-style: none;
-
-  
 }
 
 .link__main  {
   display: flex;
   list-style: none;
   text-decoration: none;
-  
 
   /*border: 1px solid #6a15d2;*/
 }
 
 .link__item {
-  
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0%;
@@ -73,7 +69,6 @@
   text-underline-offset: 3px;
   letter-spacing: 0.4px;
   line-height: 100%;
-   
 }
 
 .header__logo  {
@@ -662,5 +657,4 @@
   display: flex;
   height: 48px;
   width: 48px;
-  
 }
