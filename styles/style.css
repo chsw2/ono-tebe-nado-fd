@@ -6,7 +6,8 @@
 
 .header {
   display: flex;
-  max-height: 293px;
+  /*max-height: 293px;*/
+  height: fit-content;
   justify-content: start;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -22,8 +23,6 @@
   text-wrap: nowrap;
   padding: 133px 36.52px 138px 50px;
   margin: 0px 0px 0px 0px;
-  
- 
   /*border: 1px solid greenyellow;*/
 }
  
@@ -45,7 +44,6 @@
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 0%;
-  
   text-decoration: none;
   list-style-type: none;
   list-style: none;
@@ -55,7 +53,6 @@
   display: flex;
   list-style: none;
   text-decoration: none;
-
   /*border: 1px solid #6a15d2;*/
 }
 
@@ -81,7 +78,7 @@
 
 .header__logo__img {
   display: flex;
-  height: 105px;
+  max-height: 105px;
   width: 148px; 
 }
 
@@ -93,7 +90,7 @@
 .header__address {
   display: flex;
   flex-direction: row;
-  height: 98px;
+  /*max-height: 98px;*/
   width: 240px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -104,14 +101,12 @@
   letter-spacing: 0px;
   padding: 92px 0px 96px 0px;
   margin: 0px 0px 0px;
-
   /*border: 1px solid rgb(170, 26, 67);*/
 }
 
 .address {
   align-items: start;
   list-style: none;
-
   /*border: 1px solid greenyellow;*/
 }
 
@@ -142,6 +137,8 @@
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
+  margin: 0px;
+  padding: 0px;
   font-family: "Raleway", sans-serif;
   font-weight: 700px;
   font-style: bold;
@@ -149,7 +146,6 @@
   text-transform: uppercase;
   color: white;
   z-index: 0; 
-  
   /*border: 2px solid rgb(226, 20, 174);*/
 }
 
@@ -167,9 +163,8 @@
   height: 400px;
   width: 1000px; 
   margin: 165px 50px 207px 50px;
-  padding: 0px 0px 00px 0px;
+  padding: 0px 0px 0px 0px;
   color: white;
-
   /*border: 2px solid rgb(8, 82, 210);*/
 }
 
@@ -182,13 +177,12 @@
   justify-items: left;
   padding: 5px 0px 0px 0px;
   font-size: 100px;
-  font-weight: 700; 
+  font-weight: 700px; 
   color: white;
   line-height: 114.99%;
   letter-spacing: 30%;
   text-transform: uppercase;
   z-index: 3; 
-
   /*border: 2px solid rgb(252, 240, 7);*/
 }
 
@@ -201,10 +195,10 @@
   }
   .item2 {
     display: inline-flex;
-    justify-self: center;
+    justify-self: start;
     padding: 7.5px 0px 7.5px 0px;
-    margin-left: 380.5;
-    margin-bottom: 0;
+    margin-left: 335px;
+    margin-bottom: 0px;
   
   }
   .item3 {
@@ -221,10 +215,10 @@
 .cover__description {
   /*аукцион...в конце кнопка*/
   display: flex;
-  height: 51px;
+  /*height: 51px;*/
   width: 1000px;
   align-items: center;
-  margin-top: 106px;
+  margin-top: 95px;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -233,7 +227,6 @@
   letter-spacing: 0%;
   text-transform: uppercase;
   z-index: 4;
-
   /*border: 2px solid rgb(17, 230, 56);*/
 }
 
@@ -253,10 +246,10 @@
 .bet__button {
   display: flex;
   text-align: center;
-  height: 51px;
+  /*height: 51px;*/
   width: 256px;
   padding: 12px 32px 11px 31px;
-  margin: 2px 0px 10px 107px;
+  margin: 5px 0px 10px 107px;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -276,15 +269,15 @@
 /*ЛОТЫ*/
 
 .lots {
-  max-height: 723px;
+  /*max-height: 723px;*/
+  display: flex;
   margin: 175px 0px 0px 0px;
   padding: 0px;
-
   /*border: 2px solid rgb(52, 242, 5);*/
 }
 
 .lots__content {
-  height: 47px;
+  /*height: 47px;*/
   margin: 0px 0px 5px 0px;
   padding-left: 64px;
   padding-top: 6px;
@@ -296,7 +289,6 @@
   letter-spacing: 0%;
   text-transform: uppercase;
   color: rgb(3, 3, 3);
-
   /*border: 2px solid rgb(236, 218, 13);*/
 }
 
@@ -304,11 +296,7 @@
   display: flex;
   align-items: center;
   justify-items: center;
-  margin-top: 28px;
-  margin-right: 24px;
-  margin-bottom: 2px;
-  margin-left: 24px;
- 
+  margin: 28px 24px 2px 24px;
   /*border: 2px solid rgb(236, 218, 13);*/
 }
 
@@ -322,15 +310,13 @@
   max-width: 100%;
   line-height: 100%;
   list-style: none;
-  
   /*border: 2px solid rgb(236, 13, 46);*/
 }
 
 .frames__cards {
   display: flex;
-  height: 596px;
+  min-height: 596px;
   width: 334px;
-
   /*border: 2px solid rgb(97, 11, 255);*/
 }
 
@@ -347,7 +333,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
 }
 
 
@@ -359,7 +344,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
 }
 
 .frame__picture {
@@ -390,9 +374,7 @@
 
 .cards__title {
   display: flex;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-top: 48px;
+  margin: 48px 40px 0px 48px;
   font-family: "Raleway", sans-serif;
   font-weight: 700px;
   font-style: bold;
@@ -408,9 +390,7 @@
 
 .cards__text {
   text-align: start;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-bottom: 48px;
+  margin: 0px 40px 48px 40px;
   font-family: "Raleway", sans-serif;
   font-weight: 400px;
   font-style: normal;
@@ -421,15 +401,13 @@
 }
 
 .down__link {
-  margin-top: 34px;
-  margin-left: 40px;
   font-family: "Raleway", sans-serif;
   font-weight: 400px;
   font-style: normal;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 100%;
   letter-spacing: 0%;
-  text-decoration: underline;
+  margin-right: 40;
 }
 
 /*ОБ АУКЦИОНЕ*/
@@ -437,28 +415,27 @@
 .about {
   display: flex;
   flex-direction: row;
-  height: 595px;
+  /*height: 595px;*/
   width: 1052px;
   margin: 120px 24px 180px 24px;
-
   /*border: 1px solid red;*/
 }
 
 .about__row {
   display: flex;
   flex-direction: column;
-  height: 240px;
+  /*height: 240px;*/
   width: 956px;
   margin: 35px 0px 0px 47px;
-
   /*border: 1px solid rgb(208, 198, 9);*/
 }
 
 .about__logo {
-  display: inline-block;
+  display: flex;
   position: absolute;
   width: 240px;
   height: 240px;
+
   background-image: url(../images/logo-white.svg);
   background-repeat: no-repeat;
   background-position: center; 
