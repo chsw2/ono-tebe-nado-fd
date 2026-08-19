@@ -23,6 +23,7 @@
   text-wrap: nowrap;
   padding: 133px 36.52px 138px 50px;
   margin: 0px 0px 0px 0px;
+  
   /*border: 1px solid greenyellow;*/
 }
  
@@ -31,7 +32,6 @@
   flex-direction: row;
   padding: 133px 36.52px 138px 50px;
   margin: 0px 0px 0px 0px;
-  text-decoration: none;
   list-style-type: circle;
   justify-content: center;
   align-content: start;
@@ -41,9 +41,15 @@
   /*border: 1px solid hsl(216, 73%, 37%);*/
 }
 
-.link__list__wom {
+.header__menu__links li:hover {
+  list-style-type: none;
+}
+/*использовал подход с hover,т.к. при использованнии доп.класса
+не удается добится эффекта пропадания подчеркивания и маркера при наведении курсора*/
+
+/*.link__list__wom {*/
   /*wom-без маркера*/
-  font-size: 18px;
+/*  font-size: 18px;
   line-height: 100%;
   letter-spacing: 0px;
   text-decoration: none;
@@ -54,18 +60,20 @@
 .link__main  {
   list-style: none;
   text-decoration: none;
-  /*border: 1px solid #6a15d2;*/
-}
+  /*border: 1px solid #6a15d2;
+}*/
 
 .link__item {
   font-size: 18px;
   line-height: 100%;
-  text-decoration: underline;
   text-align: center;
   text-underline-offset: 3px;
   letter-spacing: 0.4px;
   line-height: 100%;
+}
 
+.link__item:hover {
+  text-decoration:none;
 }
 
 .header__logo  {
@@ -88,6 +96,7 @@
 }
 
 .header__address {
+  list-style-type: none;
   display: flex;
   /*max-height: 98px;*/
   width: 240px;
@@ -99,34 +108,30 @@
   letter-spacing: 0px;
   padding: 92px 0px 96px 0px;
   margin: 5px 0px 0px 0px;
+  
   /*border: 1px solid rgb(170, 26, 67);*/
 }
 
-.address {
-  text-align: start;
+.address__box {
   list-style: none;
-  text-decoration: none;
-  /*border: 1px solid greenyellow;*/
 }
 
-.telefon {
-  padding: 0px 2px 1px 1px;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  letter-spacing: -1.2px;
-  /*white-space: pre;*/
+.address__link {
+  font-family: Raleway;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24.3px;
+  letter-spacing: 0px;  
 }
 
-.mail {
-  padding: 0px 2px 1px 1px;
-  text-decoration: underline;
-  text-underline-offset: 3px;
+.address__post {
+  font-family: Raleway;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24.3px;
   letter-spacing: 0px;
-}
-
-.post__adr {
-  list-style-type: none;
-  list-style: none;
 }
 
 /* КОВЕР */
@@ -552,26 +557,6 @@
   /*border: 1px solid rgb(170, 26, 67);*/
 }
 
-.address__f {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  font-style: normal;
-  /*border: 1px solid greenyellow;*/
-}
-
-.post__adr {
-  list-style-type: none;
-  text-decoration: none;
-  font-style: normal;
-  /*height: 49px;*/
-  /*width: 260.7px;*/
-  line-height: 24.3px;
-  /*word-spacing: 0px;
-  margin: 0px 0px 0px 0px;
-  padding: 1px 2.2px 0px 1.1px;*/
-}
-
 .footer__menu {
   display: flex;
   align-content: start;
@@ -596,24 +581,8 @@
   /*border: 1px solid hsl(216, 73%, 37%);*/
 }
 
-.link__list__wom_f {
-  /*wom-без маркера*/
+.footer__menu__links li:hover{
   list-style-type: none;
-  list-style: none;
-}
-
-.link__main_f {
-  list-style: none;
-  text-decoration: none;
-  /*border: 1px solid #6a15d2;*/
-}
-
-.link__list_f {
-  /*list-style-type: none;*/
-  text-decoration: underline;
-  text-underline-offset: 1px;
-  padding: 0px 0px 0px 0px;
-  
 }
 
 .footer__link__logo__box {
