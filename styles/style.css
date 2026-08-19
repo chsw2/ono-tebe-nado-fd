@@ -197,13 +197,13 @@
   /*border: 2px solid rgb(252, 240, 7);*/
 }
 
-  .item1 { 
+  .top__row { 
     display: inline-flex;
     justify-self: start;
     line-height: 100%;
     padding: 7.5px 0px 7.5px 0px;
   }
-  .item2 {
+  .middle__row {
     display: inline-flex;
     justify-self: start;
     padding: 7.5px 0px 7.5px 0px;
@@ -211,7 +211,7 @@
     margin-bottom: 0px;
   
   }
-  .item3 {
+  .bottom__row {
     display: inline-flex;
     justify-self: end;
     align-items: end;
